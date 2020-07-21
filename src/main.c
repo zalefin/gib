@@ -5,12 +5,18 @@
 
 
 int main(int argc, char **argv){
-    // fast seed
+
+    // fast seed init
     struct timespec ts;
     clock_gettime(CLOCK_MONOTONIC, &ts);
     srand((time_t) ts.tv_nsec);
 
-    printf("%d\n", rand());
+    printf("%s%s%s%s%s\n",
+	    get_conson(),
+	    get_vowel(),
+	    get_conson(),
+	    get_vowel(),
+	    get_conson());
 
     return 0;
 }
