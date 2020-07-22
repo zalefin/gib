@@ -4,13 +4,11 @@
 const char VOWELS[VOWELS_LEN][MAX_STR_SIZE] = {
     "a",
     "e",
+    "ee",
     "i",
     "o",
+    "oo",
     "u",
-    "ou",
-    "au",
-    "ua",
-    "ie",
 };
 
 const char CONSONS[CONSONS_LEN][MAX_STR_SIZE] = {
@@ -20,18 +18,18 @@ const char CONSONS[CONSONS_LEN][MAX_STR_SIZE] = {
     "f",
     "g",
     "h",
-    "j",
+    /* "j", */
     "k",
     "l",
     "p",
-    "q",
+    /* "q", */
     "s",
     "t",
     "v",
     "w",
-    "x",
-    "y",
-    "z",
+    /* "x", */
+    /* "y", */
+    /* "z", */
 };
 
 char *get_vowel(){
